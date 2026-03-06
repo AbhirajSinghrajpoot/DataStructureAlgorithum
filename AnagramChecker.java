@@ -8,6 +8,7 @@ public class AnagramChecker {
             return false;
 
         int[] count = new int[26];
+        
 
         for (int i = 0; i < s1.length(); i++) {
             count[s1.charAt(i) - 'a']++;
