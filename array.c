@@ -10,5 +10,5 @@ int main()
 printf("\n array element are");
 for (i=0;i<10;i++)
   printf("\n %d",a[i]);
-  return 0;
+  return 0; 
 }
